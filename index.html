@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graident Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="result"></div>
+        <div class="options-cont">
+          <div class="left">
+            <label for="postionsSelect">Directions</label>
+            <select name="" id="postionsSelect">
+              <option value="">Top</option>
+              <option value="">Right Top</option>
+              <option value="">Right</option>
+              <option value="">Right Bottom</option>
+              <option value="">Bottom</option>
+              <option value="">Left Bottom</option>
+              <option value="">Left</option>
+              <option value="" selected>Left Top</option>
+            </select>
+          </div>
+          <div class="right">
+            <span>Colors</span>
+            <div class="colors">
+              <input
+                type="color"
+                name=""
+                id=""
+                value="#5665e9"
+                data-default="#5665e9"
+              />
+              <input
+                type="color"
+                name=""
+                id=""
+                value="#a271f8"
+                data-default="#a271f8"
+              />
+            </div>
+          </div>
+        </div>
+        <textarea class="code-result" disabled></textarea>
+        <div class="buttons-cont">
+          <button class="refresh">Refresh Colors</button>
+          <button class="copy">Copy Code</button>
+          <button class="reset">Reset</button>
+        </div>
+      </div>
+      <footer>
+        Copyright © 2024 Mo3bassia. All rights reserved. Design:
+        <a href="https://youtube.com/">Youtube</a> Develop: <a href="#"></a>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
